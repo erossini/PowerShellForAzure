@@ -4,7 +4,7 @@
 Switch-AzureMode AzureResourceManager
 
 # Create PSCredential Object
-$Username = "Sherif"
+$Username = "Enrico"
 $Password = "Master@123" | ConvertTo-SecureString -AsPlainText -Force
 $Cred = New-Object System.Management.Automation.PSCredential($Username,$Password)
 
